@@ -20,3 +20,8 @@ env/
 .env
 .env.*
 !.env.example
+
+# Respaldos de bases de datos
+*_respaldo.sql
+*_backup.sql
+*.bak
