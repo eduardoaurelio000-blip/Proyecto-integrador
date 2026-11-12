@@ -70,8 +70,9 @@ Estas funcionalidades representan las operaciones previstas para el prototipo y 
 - Contiene la estructura de la base de datos, las tablas, las relaciones y las restricciones necesarias para almacenar y organizar la información.
 
 
-#Estructura del repositorio
+# Estructura del repositorio
 
+```text
 proyecto-integrador/
 ├── docs/
 │   ├── diccionario_datos/
@@ -79,16 +80,15 @@ proyecto-integrador/
 │   ├── figma/
 │   │   └── capturas/
 │   └── modelo_entidad_relacion/
-│
 ├── src/
 │   ├── presentation/
 │   ├── business/
-│   └── data/
-│       └── database.sql
-│
+│   ├── data/
+│   └── database.sql
 ├── tests/
 ├── .gitignore
 └── README.md
+```
 
 
 #Documentación
