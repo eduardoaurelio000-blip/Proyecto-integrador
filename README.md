@@ -1,62 +1,108 @@
-# Sistema de Control de Asistencia de Estudiantes
+#Sistema de Control de Asistencia de Estudiantes
 
-**Proyecto Integrador I — UNAN-León**
+#Proyecto Integrador I — UNAN-León
 
-## Descripción
 
-El proyecto consiste en el diseño de una base de datos relacional para un sistema digital de control de asistencia de estudiantes, orientado a sustituir el registro tradicional en papel para prevenir errores, evitar la pérdida de información y facilitar la consulta de faltas por estudiante, curso y fecha.
+#Descripción
 
-La estructura organiza la información en siete entidades principales: estudiantes, docentes, cursos, matrículas, sesiones de clase, asistencias y usuarios. Estas entidades están diseñadas bajo normas de normalización hasta la Tercera Forma Normal (3FN), respaldadas por un diccionario de datos en MySQL y reglas operativas que garantizan la integridad de los registros y el acceso autorizado.
+El proyecto consiste en el diseño de un prototipo de un sistema digital de control de asistencia de estudiantes, basado en una base de datos relacional.
 
-## Objetivo
+Su propósito es demostrar cómo se puede organizar, almacenar y consultar la información académica para sustituir el registro tradicional de asistencia en papel, reducir errores y facilitar el seguimiento de las faltas por estudiante, curso y fecha.
 
-Diseñar un sistema digital que permita registrar, organizar y consultar la asistencia de los estudiantes de manera eficiente y segura.
+La base de datos contempla siete entidades principales: estudiantes, docentes, cursos, matrículas, sesiones de clase, asistencias y usuarios. Su estructura está diseñada siguiendo principios de normalización hasta la Tercera Forma Normal (3FN), con claves primarias, claves foráneas y restricciones de integridad.
 
-## Entidades principales
+El proyecto se desarrolla como un prototipo académico que permite representar el funcionamiento de una base de datos mediante una arquitectura de tres capas.
 
-1. Estudiantes
-2. Docentes
-3. Cursos
-4. Matrículas
-5. Sesiones de clase
-6. Asistencias
-7. Usuarios
 
-## Funcionalidades del sistema
+#Objetivo
+
+Diseñar y documentar un prototipo de un sistema digital que permita representar cómo se registran, organizan y consultan las asistencias de los estudiantes de manera eficiente y ordenada.
+
+
+#Entidades principales
+
+1. Estudiante.
+2. Docente.
+3. Curso.
+4. Matrícula.
+5. Sesión de clase.
+6. Asistencia.
+7. Usuario.
+
+
+#Funcionalidades previstas
 
 - Gestión de estudiantes.
 - Gestión de docentes.
 - Gestión de cursos y matrículas.
 - Registro de sesiones de clase.
-- Control de asistencia mediante los estados "Presente" y "Ausente".
-- Consulta de faltas por estudiante, curso y fecha.
-- Restricción de un registro por estudiante por sesión.
-- Acceso y modificación de datos únicamente por usuarios autorizados.
+- Registro de asistencia mediante los estados "Presente" y "Ausente".
+0- Consulta de faltas por estudiante, curso y fecha.
+- Prevención de registros duplicados de asistencia en una misma sesión.
+- Control de acceso mediante usuarios autorizados.
 
-## Tecnologías y herramientas
+Estas funcionalidades representan las operaciones previstas para el prototipo y no implican que exista una aplicación completa implementada.
 
-- Python: lenguaje de programación.
-- MySQL: sistema de gestión de bases de datos.
-- Figma: diseño de interfaces y prototipos.
+
+#Tecnologías y herramientas
+
+- Python: lenguaje previsto para representar la lógica del sistema, si se requiere su implementación.
+- MariaDB: sistema gestor de bases de datos utilizado para crear y administrar la base de datos.
+- Figma: herramienta para el diseño de interfaces y prototipos.
 - Git y GitHub: control de versiones y alojamiento del repositorio.
+- Termux: entorno utilizado para trabajar con el repositorio y administrar MariaDB desde Android.
 
-## Arquitectura del sistema
 
-El proyecto contempla una arquitectura de software de tres capas:
+#Arquitectura del sistema
 
-- **Presentation:** Interfaz de usuario y presentación de la información.
-- **Business:** Reglas de negocio y procesamiento de las operaciones.
-- **Data:** Acceso a datos, consultas y conexión con MySQL.
+- El prototipo contempla una arquitectura de software de tres capas:
 
-## Estructura del repositorio
+#Presentation (Presentación)
 
-```text
+- Representa la interfaz mediante la cual los usuarios interactuarían con el sistema. Incluye el diseño de pantallas, formularios y consultas.
+
+#Business (Lógica de negocio)
+
+- Representa las reglas y operaciones del sistema, como la validación de matrículas, el registro de asistencias y la prevención de registros duplicados.
+
+#Data (Datos)
+
+- Contiene la estructura de la base de datos, las tablas, las relaciones y las restricciones necesarias para almacenar y organizar la información.
+
+
+#Estructura del repositorio
+
 proyecto-integrador/
 ├── docs/
+│   ├── diccionario_datos/
+│   ├── documentacion/
+│   ├── figma/
+│   │   └── capturas/
+│   └── modelo_entidad_relacion/
+│
 ├── src/
 │   ├── presentation/
 │   ├── business/
 │   └── data/
+│       └── database.sql
+│
 ├── tests/
 ├── .gitignore
 └── README.md
+
+
+#Documentación
+
+El repositorio contempla los siguientes documentos:
+
+- Diccionario de datos.
+- Modelo entidad-relación.
+- Diseño del prototipo en Figma.
+- Informe técnico del proyecto.
+
+Los documentos se incorporarán conforme avance el desarrollo del proyecto y estén disponibles los aportes del equipo.
+
+
+#Estado del proyecto
+
+El proyecto se encuentra en etapa de diseño, organización y construcción del prototipo. Su desarrollo contempla la documentación de la base de datos y la representación de las operaciones mediante una arquitectura de tres capas.
