@@ -46,7 +46,7 @@ Estas funcionalidades representan las operaciones previstas para el prototipo y 
 
 #Tecnologías y herramientas
 
-- Python: lenguaje previsto para representar la lógica del sistema, si se requiere su implementación.
+- Python: utilizado para implementar una simulación funcional de la lógica de negocio, incluyendo validaciones, registro de asistencia y generación de reportes. La simulación utiliza datos en memoria y no se conecta directamente a MariaDB.
 - MariaDB: sistema gestor de bases de datos utilizado para crear y administrar la base de datos.
 - Figma: herramienta para el diseño de interfaces y prototipos.
 - Git y GitHub: control de versiones y alojamiento del repositorio.
