@@ -235,11 +235,11 @@ Las siguientes imágenes documentan el avance visual actual:
 
 **Pantalla de inicio de sesión**
 
-![Pantalla de inicio de sesión](docs/figma/capturas/IMG_20261113_200144_369.jpg)
+![Pantalla de inicio de sesión](docs/figma/capturas/IMG_20261113_200134_695.jpg)
 
-**Panel principal**
+**Vista previa de las tablas**
 
-![Panel principal](docs/figma/capturas/IMG_20261113_200134_695.jpg)
+![Vista previa de las tablas](docs/figma/capturas/IMG_20261113_200144_369.jpg)
 
 El prototipo se encuentra en desarrollo y representa una propuesta
 visual. Sus botones y formularios no están conectados a una aplicación
