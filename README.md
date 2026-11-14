@@ -216,8 +216,34 @@ El repositorio contiene los siguientes documentos de referencia:
     problema, los objetivos, las entidades, las relaciones, la
     normalización y las reglas de integridad.
 
-El diseño visual de las interfaces en Figma forma parte del trabajo de
-presentación del prototipo.
+### Prototipo visual en Figma
+
+Se elaboró un prototipo visual preliminar para representar cómo podría
+verse el sistema. Actualmente incluye:
+
+- Pantalla de inicio de sesión con campos de correo electrónico y contraseña.
+- Selección del tipo de usuario.
+- Panel principal con menú de navegación y estadísticas.
+- Apartados visuales para estudiantes, docentes, cursos, matrículas,
+  sesiones, asistencias y reportes.
+
+**Enlace al prototipo:** [Ver diseño en Figma](https://www.figma.com/design/ah6tBWNDl3Zp3ofTsXiSnN/Sin-t%C3%ADtulo)
+
+#### Capturas del prototipo
+
+Las siguientes imágenes documentan el avance visual actual:
+
+**Pantalla de inicio de sesión**
+
+![Pantalla de inicio de sesión](figma/capturas/IMG_20261113_200144_369.jpg)
+
+**Panel principal**
+
+![Panel principal](figma/capturas/IMG_20261113_200134_695.jpg)
+
+El prototipo se encuentra en desarrollo y representa una propuesta
+visual. Sus botones y formularios no están conectados a una aplicación
+funcional ni a la base de datos.
 
 ## 📍 Alcance y estado del proyecto
 
@@ -234,8 +260,10 @@ El repositorio cuenta con la estructura del proyecto, el diseño SQL, el
 modelo entidad-relación, la documentación técnica, el diccionario de
 datos y las pruebas funcionales de la lógica implementada.
 
-El desarrollo de la presentación visual y la revisión final del
-prototipo forman parte de las actividades pendientes.
+El prototipo visual inicial ya fue incorporado al repositorio mediante
+su enlace y capturas de pantalla. Su diseño todavía puede recibir
+modificaciones; por tanto, las imágenes representan el avance actual y
+no necesariamente una versión definitiva.
 
 ------------------------------------------------------------------------
 
